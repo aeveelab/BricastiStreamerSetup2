@@ -1,0 +1,299 @@
+ for each function it appears in
+getIPAddressTest.c:58:3: warning: implicit declaration of function 'inet_ntop' [
+-Wimplicit-function-declaration]
+   inet_ntop(p->ai_family, addr, ipstr, sizeof ipstr);
+   ^
+getIPAddressTest.c:63:6: warning: implicit declaration of function 'sleep' [-Wim
+plicit-function-declaration]
+      sleep(5);
+      ^
+
+C:\Users\ed\Desktop\TestNetworkSource>ifconfig -a
+'ifconfig' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\ed\Desktop\TestNetworkSource>ifconfig -a
+'ifconfig' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\ed\Desktop\TestNetworkSource>
+C:\Users\ed\Desktop\TestNetworkSource>gcc getIPAddressTest.c -lws2_32
+getIPAddressTest.c: In function 'main':
+getIPAddressTest.c:58:3: warning: implicit declaration of function 'inet_ntop' [
+-Wimplicit-function-declaration]
+   inet_ntop(p->ai_family, addr, ipstr, sizeof ipstr);
+   ^
+getIPAddressTest.c:63:6: warning: implicit declaration of function 'sleep' [-Wim
+plicit-function-declaration]
+      sleep(5);
+      ^
+
+C:\Users\ed\Desktop\TestNetworkSource>gcc getIPAddressTest.c -lws2_32
+getIPAddressTest.c: In function 'main':
+getIPAddressTest.c:58:3: warning: implicit declaration of function 'inet_ntop' [
+-Wimplicit-function-declaration]
+   inet_ntop(p->ai_family, addr, ipstr, sizeof ipstr);
+   ^
+getIPAddressTest.c:63:6: warning: implicit declaration of function 'sleep' [-Wim
+plicit-function-declaration]
+      sleep(5);
+      ^
+
+C:\Users\ed\Desktop\TestNetworkSource>gcc getIPAddressTest.c -lws2_32
+getIPAddressTest.c: In function 'main':
+getIPAddressTest.c:69:0: error: unterminated argument list invoking macro "MAKEW
+ORD"
+getIPAddressTest.c:25:12: error: 'MAKEWORD' undeclared (first use in this functi
+on)
+ WSAStartup(MAKEWORD(2,2(, &wsaData);
+            ^
+getIPAddressTest.c:25:12: note: each undeclared identifier is reported only once
+ for each function it appears in
+getIPAddressTest.c:25:1: error: expected ')' at end of input
+ WSAStartup(MAKEWORD(2,2(, &wsaData);
+ ^
+getIPAddressTest.c:25:1: error: too few arguments to function 'WSAStartup'
+In file included from getIPAddressTest.c:8:0:
+C:/TDM-GCC-64/x86_64-w64-mingw32/include/winsock2.h:1009:34: note: declared here
+
+   WINSOCK_API_LINKAGE int WSAAPI WSAStartup(WORD wVersionRequested,LPWSADATA lp
+WSAData);
+                                  ^
+getIPAddressTest.c:25:1: error: expected declaration or statement at end of inpu
+t
+ WSAStartup(MAKEWORD(2,2(, &wsaData);
+ ^
+
+C:\Users\ed\Desktop\TestNetworkSource>
+C:\Users\ed\Desktop\TestNetworkSource>
+C:\Users\ed\Desktop\TestNetworkSource>
+C:\Users\ed\Desktop\TestNetworkSource>
+C:\Users\ed\Desktop\TestNetworkSource>
+C:\Users\ed\Desktop\TestNetworkSource>
+C:\Users\ed\Desktop\TestNetworkSource>
+C:\Users\ed\Desktop\TestNetworkSource>
+C:\Users\ed\Desktop\TestNetworkSource>
+C:\Users\ed\Desktop\TestNetworkSource>
+C:\Users\ed\Desktop\TestNetworkSource>
+C:\Users\ed\Desktop\TestNetworkSource>
+C:\Users\ed\Desktop\TestNetworkSource>
+C:\Users\ed\Desktop\TestNetworkSource>
+C:\Users\ed\Desktop\TestNetworkSource>
+C:\Users\ed\Desktop\TestNetworkSource>
+C:\Users\ed\Desktop\TestNetworkSource>
+C:\Users\ed\Desktop\TestNetworkSource>
+C:\Users\ed\Desktop\TestNetworkSource>
+C:\Users\ed\Desktop\TestNetworkSource>
+C:\Users\ed\Desktop\TestNetworkSource>
+C:\Users\ed\Desktop\TestNetworkSource>
+C:\Users\ed\Desktop\TestNetworkSource>
+C:\Users\ed\Desktop\TestNetworkSource>
+C:\Users\ed\Desktop\TestNetworkSource>
+C:\Users\ed\Desktop\TestNetworkSource>
+C:\Users\ed\Desktop\TestNetworkSource>
+C:\Users\ed\Desktop\TestNetworkSource>
+C:\Users\ed\Desktop\TestNetworkSource>
+C:\Users\ed\Desktop\TestNetworkSource>
+C:\Users\ed\Desktop\TestNetworkSource>
+C:\Users\ed\Desktop\TestNetworkSource>
+C:\Users\ed\Desktop\TestNetworkSource>
+C:\Users\ed\Desktop\TestNetworkSource>
+C:\Users\ed\Desktop\TestNetworkSource>
+C:\Users\ed\Desktop\TestNetworkSource>
+C:\Users\ed\Desktop\TestNetworkSource>
+C:\Users\ed\Desktop\TestNetworkSource>
+C:\Users\ed\Desktop\TestNetworkSource>
+C:\Users\ed\Desktop\TestNetworkSource>
+C:\Users\ed\Desktop\TestNetworkSource>
+C:\Users\ed\Desktop\TestNetworkSource>
+C:\Users\ed\Desktop\TestNetworkSource>
+C:\Users\ed\Desktop\TestNetworkSource>
+C:\Users\ed\Desktop\TestNetworkSource>
+C:\Users\ed\Desktop\TestNetworkSource>
+C:\Users\ed\Desktop\TestNetworkSource>
+C:\Users\ed\Desktop\TestNetworkSource>
+C:\Users\ed\Desktop\TestNetworkSource>
+C:\Users\ed\Desktop\TestNetworkSource>
+C:\Users\ed\Desktop\TestNetworkSource>
+C:\Users\ed\Desktop\TestNetworkSource>
+C:\Users\ed\Desktop\TestNetworkSource>
+C:\Users\ed\Desktop\TestNetworkSource>
+C:\Users\ed\Desktop\TestNetworkSource>
+C:\Users\ed\Desktop\TestNetworkSource>
+C:\Users\ed\Desktop\TestNetworkSource>
+C:\Users\ed\Desktop\TestNetworkSource>
+C:\Users\ed\Desktop\TestNetworkSource>
+C:\Users\ed\Desktop\TestNetworkSource>gcc getIPAddressTest.c -lws2_32
+getIPAddressTest.c: In function 'main':
+getIPAddressTest.c:69:0: error: unterminated argument list invoking macro "MAKEW
+ORD"
+getIPAddressTest.c:25:12: error: 'MAKEWORD' undeclared (first use in this functi
+on)
+ WSAStartup(MAKEWORD(2,2(, &wsaData);
+            ^
+getIPAddressTest.c:25:12: note: each undeclared identifier is reported only once
+ for each function it appears in
+getIPAddressTest.c:25:1: error: expected ')' at end of input
+ WSAStartup(MAKEWORD(2,2(, &wsaData);
+ ^
+getIPAddressTest.c:25:1: error: too few arguments to function 'WSAStartup'
+In file included from getIPAddressTest.c:8:0:
+C:/TDM-GCC-64/x86_64-w64-mingw32/include/winsock2.h:1009:34: note: declared here
+
+   WINSOCK_API_LINKAGE int WSAAPI WSAStartup(WORD wVersionRequested,LPWSADATA lp
+WSAData);
+                                  ^
+getIPAddressTest.c:25:1: error: expected declaration or statement at end of inpu
+t
+ WSAStartup(MAKEWORD(2,2(, &wsaData);
+ ^
+
+C:\Users\ed\Desktop\TestNetworkSource>
+C:\Users\ed\Desktop\TestNetworkSource>
+C:\Users\ed\Desktop\TestNetworkSource>
+C:\Users\ed\Desktop\TestNetworkSource>
+C:\Users\ed\Desktop\TestNetworkSource>
+C:\Users\ed\Desktop\TestNetworkSource>
+C:\Users\ed\Desktop\TestNetworkSource>
+C:\Users\ed\Desktop\TestNetworkSource>
+C:\Users\ed\Desktop\TestNetworkSource>
+C:\Users\ed\Desktop\TestNetworkSource>
+C:\Users\ed\Desktop\TestNetworkSource>
+C:\Users\ed\Desktop\TestNetworkSource>
+C:\Users\ed\Desktop\TestNetworkSource>
+C:\Users\ed\Desktop\TestNetworkSource>
+C:\Users\ed\Desktop\TestNetworkSource>
+C:\Users\ed\Desktop\TestNetworkSource>
+C:\Users\ed\Desktop\TestNetworkSource>
+C:\Users\ed\Desktop\TestNetworkSource>
+C:\Users\ed\Desktop\TestNetworkSource>
+C:\Users\ed\Desktop\TestNetworkSource>
+C:\Users\ed\Desktop\TestNetworkSource>
+C:\Users\ed\Desktop\TestNetworkSource>
+C:\Users\ed\Desktop\TestNetworkSource>
+C:\Users\ed\Desktop\TestNetworkSource>
+C:\Users\ed\Desktop\TestNetworkSource>
+C:\Users\ed\Desktop\TestNetworkSource>gcc getIPAddressTest.c -lws2_32
+getIPAddressTest.c: In function 'main':
+getIPAddressTest.c:61:3: warning: implicit declaration of function 'inet_ntop' [
+-Wimplicit-function-declaration]
+   inet_ntop(p->ai_family, addr, ipstr, sizeof ipstr);
+   ^
+getIPAddressTest.c:66:6: warning: implicit declaration of function 'sleep' [-Wim
+plicit-function-declaration]
+      sleep(5);
+      ^
+
+C:\Users\ed\Desktop\TestNetworkSource>gcc getIPAddressTest.c -lws2_32
+getIPAddressTest.c: In function 'main':
+getIPAddressTest.c:36:28: error: 'www' undeclared (first use in this function)
+  if ((status = getaddrinfo(www.google.com, NULL, &hints, &res)) != 0)
+                            ^
+getIPAddressTest.c:36:28: note: each undeclared identifier is reported only once
+ for each function it appears in
+getIPAddressTest.c:61:3: warning: implicit declaration of function 'inet_ntop' [
+-Wimplicit-function-declaration]
+   inet_ntop(p->ai_family, addr, ipstr, sizeof ipstr);
+   ^
+getIPAddressTest.c:66:6: warning: implicit declaration of function 'sleep' [-Wim
+plicit-function-declaration]
+      sleep(5);
+      ^
+
+C:\Users\ed\Desktop\TestNetworkSource>
+C:\Users\ed\Desktop\TestNetworkSource>
+C:\Users\ed\Desktop\TestNetworkSource>
+C:\Users\ed\Desktop\TestNetworkSource>
+C:\Users\ed\Desktop\TestNetworkSource>
+C:\Users\ed\Desktop\TestNetworkSource>
+C:\Users\ed\Desktop\TestNetworkSource>
+C:\Users\ed\Desktop\TestNetworkSource>
+C:\Users\ed\Desktop\TestNetworkSource>
+C:\Users\ed\Desktop\TestNetworkSource>
+C:\Users\ed\Desktop\TestNetworkSource>gcc getIPAddressTest.c -lws2_32
+getIPAddressTest.c: In function 'main':
+getIPAddressTest.c:61:3: warning: implicit declaration of function 'inet_ntop' [
+-Wimplicit-function-declaration]
+   inet_ntop(p->ai_family, addr, ipstr, sizeof ipstr);
+   ^
+getIPAddressTest.c:66:6: warning: implicit declaration of function 'sleep' [-Wim
+plicit-function-declaration]
+      sleep(5);
+      ^
+
+C:\Users\ed\Desktop\TestNetworkSource>gcc getIPAddressTest.c -lws2_32
+getIPAddressTest.c: In function 'main':
+getIPAddressTest.c:61:3: warning: implicit declaration of function 'inet_ntop' [
+-Wimplicit-function-declaration]
+   inet_ntop(p->ai_family, addr, ipstr, sizeof ipstr);
+   ^
+getIPAddressTest.c:66:6: warning: implicit declaration of function 'sleep' [-Wim
+plicit-function-declaration]
+      sleep(5);
+      ^
+
+C:\Users\ed\Desktop\TestNetworkSource>gcc getIPAddressTest.c -lws2_32
+getIPAddressTest.c: In function 'main':
+getIPAddressTest.c:62:3: warning: implicit declaration of function 'inet_ntop' [
+-Wimplicit-function-declaration]
+   inet_ntop(p->ai_family, addr, ipstr, sizeof ipstr);
+   ^
+getIPAddressTest.c:67:6: warning: implicit declaration of function 'sleep' [-Wim
+plicit-function-declaration]
+      sleep(5);
+      ^
+
+C:\Users\ed\Desktop\TestNetworkSource>./a office_2
+'.' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\ed\Desktop\TestNetworkSource>C:\Users\ed\Desktop\TestNetworkSource
+'C:\Users\ed\Desktop\TestNetworkSource' is not recognized as an internal or exte
+rnal command,
+operable program or batch file.
+
+C:\Users\ed\Desktop\TestNetworkSource>
+C:\Users\ed\Desktop\TestNetworkSource>
+C:\Users\ed\Desktop\TestNetworkSource>C:\Users\ed\Desktop\TestNetworkSource\a of
+fice_2
+IP addresses for office_2:
+
+  IPv6: fe80::f434:a72c:94e2:b11f
+  IPv4: 192.168.1.69
+
+C:\Users\ed\Desktop\TestNetworkSource>gcc getIPAddressTest.c -lws2_32
+getIPAddressTest.c: In function 'main':
+getIPAddressTest.c:62:3: warning: implicit declaration of function 'inet_ntop' [
+-Wimplicit-function-declaration]
+   inet_ntop(p->ai_family, addr, ipstr, sizeof ipstr);
+   ^
+getIPAddressTest.c:67:6: warning: implicit declaration of function 'sleep' [-Wim
+plicit-function-declaration]
+      sleep(5);
+      ^
+
+C:\Users\ed\Desktop\TestNetworkSource>C:\Users\ed\Desktop\TestNetworkSource\a.ex
+e www.google.com
+IP addresses for www.google.com:
+
+  IPv4: 172.217.3.228
+
+C:\Users\ed\Desktop\TestNetworkSource>gcc getIPAddressTest.c -lws2_32
+getIPAddressTest.c: In function 'main':
+getIPAddressTest.c:62:3: warning: implicit declaration of function 'inet_ntop' [
+-Wimplicit-function-declaration]
+   inet_ntop(p->ai_family, addr, ipstr, sizeof ipstr);
+   ^
+getIPAddressTest.c:67:6: warning: implicit declaration of function 'sleep' [-Wim
+plicit-function-declaration]
+      sleep(5);
+      ^
+
+C:\Users\ed\Desktop\TestNetworkSource>C:\Users\ed\Desktop\TestNetworkSource\a of
+fice_2
+IP addresses for office_2:
+
+  IPv6: fe80::f434:a72c:94e2:b11f
+  IPv4: 192.168.1.69
+
+C:\Users\ed\Desktop\TestNetworkSource>gcc getIPAddressTest.c -lws2_32

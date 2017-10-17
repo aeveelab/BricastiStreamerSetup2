@@ -1,0 +1,22 @@
+// set working dir to where source and executable are located 
+...> cd C:\Users\ed\Desktop\TestNetworkSource
+
+//compile
+C:\Users\ed\Desktop\TestNetworkSource> gcc getIPAddressTest.c -lws2_32  // must link to winsock library, Ws2_32.lib
+									// https://marc.info/?m=125002318703137
+
+// run
+C:\Users\ed\Desktop\TestNetworkSource> C:\Users\ed\Desktop\TestNetworkSource\a
+
+// Key page with tutorial and code samples
+http://beej.us/guide/bgnet/output/html/singlepage/bgnet.html#theory
+
+// talks about first call to use winsock lib
+https://msdn.microsoft.com/en-us/library/windows/desktop/ms742213(v=vs.85).aspx
+
+//Miscellaneous
+The local host that is looks for will have to be changed for a given lan.  
+
+
+
+
